@@ -1,0 +1,49 @@
+01. Git - Version Controlling
+02. Gitolite - Git Repos and Branches Authorization and Authentication controller
+03. Jenkins - Automation / Continuos Integration
+04. Docker - Developer Specific Containers / Containerization
+05. AWS - CLoud Solution - EC2, VPC, S3, IAM, WAFetc.
+06. Zabbix - Servers Port Monitoring (Disk/Swap Space, I/O Overload, Port Down, Load)
+07. Grafana - Monitoring Visualization (Pat-Doc Load Avg)
+08. NewRelic - Applicaiton Performance Monitoring, Errors, Transactions, Database, JVMs
+09. ELK Stack :
+- ElasticSearch - Store, search, and analyze huge volumes of data
+- Logstash - Sending logs event
+- Kibana - Logging and log analytics, Infrastructure metrics and container monitoring, Application performance monitoring (APM)
+10. Sentry - Realtime Errors
+11. RabbitMQ - Messaging Queues
+12. Phabricator - Code Reviewing tool
+
+
+1. VCS
+2. Kinds:
+	1. Centralised -> SVN/CVS/cleaecase/Cm synergy
+	2. distributed -> Git
+3. Centralised -> Active connectivity to the Central server
+4. Distributed -> Local Copy of the Repo
+5. Github
+	Kinds of repos:
+	1. Private
+	2. Public
+6. Git Workflow:
+	1. Clone
+	2. Add -> Staging
+	3. Commit -> repository -> Local
+	4. Push
+	5. Pull
+	6. Diff
+7. gitignore -> ignore certain set of files
+8. status
+9. log
+10. tag
+11. commit ID -> 40 char Alphanumeric string -> auto generated
+12. Conflict -> merging
+13. rm
+14. Amend
+15. git config
+16. git init -> create empty local repo
+17. Fetch -> update repo acc to remote repo -> Working copy of files is NOT updated
+18. checkout
+
+Next Class:
+Branches -> merge/rebase, stash
